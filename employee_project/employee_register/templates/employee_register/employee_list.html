@@ -9,6 +9,7 @@
             <td>Mobile</td>
             <td>Posisi</td>
             <td>
+                <!-- button link => employee_register.urls(name=employee_insert) -->
                 <a href="{% url 'employee_insert' %}" class="btn btn-outline-success">
                     <i class="fas fa-plus"></i> Tambahkan
                 </a>
@@ -16,6 +17,7 @@
         </tr>
     </thead>
     <tbody>
+        <!-- mengambil data dari view.employee_list -->
         {% for employee in employee_list %}
             <tr>
                 <td>{{employee.fullname}}</td>
