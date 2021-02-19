@@ -1,6 +1,14 @@
 # CrudEmployeeSimple
 berdasarkan video tutorial [disini](https://www.youtube.com/watch?v=N6jzspc2kds&list=PLVZjE_PlezICSdGDkJOvZyaMJ9qq5GM91&index=11&t=1598s)
 
+- Summary
+    - Template : Bootstrap4
+    - Model : PostgreSQL
+    - views: Function Based Views & Class based views
+    - Form : crispy forms
+    - Fitur: Login user
+    - Problem : belum ada form tanggal, image
+
 - Clone repo dan venv
     - cd PYTHON_FOLDER
     - git clone https://github.com/ArisDjango/CrudEmployeeSimple.git
